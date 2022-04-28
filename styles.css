@@ -15,7 +15,7 @@ h1{
     padding: 0;
     gap: 16px
 }
-p{
+.container-info p{
     color: #F9FAF8;
 }
 .header-logo{
@@ -75,4 +75,41 @@ body{
 .container-info h1 {
     padding: 0px;
     margin: 2px;
+}
+
+.content-container{
+    width: 1500px;
+    margin: auto;
+}
+
+.middle-container{
+    display: flex;
+    flex-direction: column;
+    width: 1500px;
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1F2937;
+    text-align: center;
+}
+.middle-container h2{
+    margin-top: 20px;
+
+}
+.image-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+    gap: 30px;
+    list-style: none;
+}
+.image-list p{
+    width: 150px;
+    margin: 0px;
+    font-size: 16px;
+    text-align: center;
+    margin: auto auto;
+}
+.image-list img{
+    border-radius: 5%;
 }
