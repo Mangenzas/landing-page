@@ -78,12 +78,18 @@ body{
 }
 
 .content-container{
-    width: 1500px;
+    display: flex;
     margin: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1 auto;
+    width: 1500px;
 }
 
 .middle-container{
     display: flex;
+    margin: auto;
     flex-direction: column;
     width: 1500px;
     font-size: 36px;
@@ -92,7 +98,7 @@ body{
     text-align: center;
 }
 .middle-container h2{
-    margin-top: 20px;
+    margin-top: 20 px;
 
 }
 .image-list{
@@ -112,4 +118,67 @@ body{
 }
 .image-list img{
     border-radius: 5%;
+}
+
+.second-middle-container{
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    background-color: #E5E7EB;
+}
+.second-middle-container p{
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.quote{
+    display: flex;
+    text-align: start;
+    width: 500px;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.quote p{
+    width: 600px;
+    height: 250px;
+    margin: 0px;
+    padding: 0px;
+}
+.quote strong{
+    align-self: flex-end;
+    margin: 0px;
+    padding: 0px;
+    text-align: end;
+}
+
+.lower-container{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+.call-container{
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882F6;
+    border-radius: 2%;
+}
+
+.button{
+    border-color: white;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    height: 70px;
 }
